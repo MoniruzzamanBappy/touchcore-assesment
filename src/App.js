@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Profile from './components/Profile/Profile';
 
 function App() {
   return (
@@ -8,8 +9,8 @@ function App() {
       <Navbar />
       </div>
       <div class="flex flex-col w-full lg:flex-row">
-        <div class="grid flex-grow lg:w-1/4  mx-1  bg-base-300 place-items-center">
-          content
+        <div class="grid flex-grow lg:w-1/4  mx-1  bg-base-300 ">
+          <Profile/>
         </div>
         <div class="grid flex-grow lg:w-1/2  mx-1  bg-base-300 place-items-center">
           content
