@@ -20,16 +20,18 @@ const Profile = () => {
       <div>
         <h1 class="text-xl font-bold mt-1">Today</h1>
         <div>
-          <p class="text-2xl font-bold">$123456</p>
+          <p class="lg:text-2xl text-xl font-bold">$19,892</p>
           <p className="text-gray-400">Account Balance</p>
         </div>
-        <div>
-          <p class="text-xl font-bold">$12345</p>
-          <p className="text-gray-400">Account Balance</p>
+        <div className="flex flex-row lg:flex-col">
+        <div >
+          <p class="lg:text-xl font-bold">$4000</p>
+          <p className="text-gray-400">Year-to-Date Contribution</p>
         </div>
-        <div>
-          <p class="font-bold">$1234</p>
-          <p className="text-gray-400">Account Balance</p>
+        <div className="ml-6 lg:ml-0">
+          <p class="font-bold ">$1892</p>
+          <p className="text-gray-400">Total Interest</p>
+        </div>
         </div>
         <div className="mt-2">
           <button
@@ -38,7 +40,7 @@ const Profile = () => {
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="button"
           >
-            Dropdown divider{" "}
+            I want to{" "}
             <svg
               class="w-4 h-4 ml-2"
               fill="none"
@@ -106,12 +108,12 @@ const Profile = () => {
           <div class="divider my-1 mr-4"></div>
         </div>
         <div className="">
-          <p className="text-gray-400">2020-08-07</p>
+          <p className="text-gray-400">2020-07-21</p>
           <p>Withdrawal Transfer to Bank XXX11</p>
           <div class="divider my-1 mr-4"></div>
         </div>
         <div className="">
-          <p className="text-gray-400">2020-08-07</p>
+          <p className="text-gray-400">2020-07-16</p>
           <p>Withdrawal Transfer to Bank XXX11</p>
           <div class="divider my-1 mr-4"></div>
         </div>
