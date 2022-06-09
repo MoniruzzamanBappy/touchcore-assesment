@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from './components/Profile/Profile';
 import Dashboard from './components/Dashboard/Dashboard';
+import Summary from "./components/Summary/Summary";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
          <Dashboard/>
         </div>
         <div class="grid flex-grow lg:w-1/4 mb-24 lg:mb-0 lg:h-screen  mx-1  ">
-          content
+          <Summary/>
         </div>
       </div>
     </div>
