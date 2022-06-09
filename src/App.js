@@ -10,17 +10,17 @@ function App() {
       <div className="order-last lg:sticky lg:left-0  lg:order-first md:order-first">
       <Navbar />
       </div>
-      <div class="flex flex-col w-full  lg:flex-row">
+      <div className="flex flex-col w-full  lg:flex-row">
         <div className='none lg:w-1/4'>
 
         </div>
-        <div class="grid flex-grow lg:w-1/4 lg:fixed lg:h-screen  mx-1  bg-base-300 ">
+        <div className="grid flex-grow lg:w-1/4 lg:fixed lg:h-screen  mx-1  bg-base-300 ">
           <Profile/>
         </div>
-        <div class="grid flex-grow lg:pl-5 lg:w-1/2  mx-1 ">
+        <div className="grid flex-grow lg:pl-5 lg:w-1/2  mx-1 ">
          <Dashboard/>
         </div>
-        <div class="grid flex-grow lg:w-1/4 mb-24 lg:mb-0 lg:h-screen  mx-1  ">
+        <div className="grid flex-grow lg:w-1/4 mb-24 lg:mb-0 lg:h-screen  mx-1  ">
           <Summary/>
         </div>
       </div>

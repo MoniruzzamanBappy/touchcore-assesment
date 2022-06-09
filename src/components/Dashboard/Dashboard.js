@@ -11,18 +11,18 @@ const Dashboard = () => {
         <div className="w-full lg:w-1/3">
           <p className="text-2xl font-bold">$300,000</p>
           <p className="text-gray-400">My Goal</p>
-          <div class="divider my-0"></div>
+          <div className="divider my-0"></div>
         </div>
         <div className="flex flex-row w-full lg:w-2/3 justify-between lg:justify-around">
           <div className="">
             <p className="text-2xl font-bold">59%</p>
             <p className="text-gray-400">Goal Achieved</p>
-            <div class="divider my-0"></div>
+            <div className="divider my-0"></div>
           </div>
           <div className="">
             <p className="text-2xl font-bold">$300</p>
             <p className="text-gray-400">Est. Monthly Income</p>
-            <div class="divider my-0"></div>
+            <div className="divider my-0"></div>
           </div>
         </div>
       </div>
@@ -61,41 +61,41 @@ const Dashboard = () => {
             <div>
               <p>
                 Age:{" "}
-                <select class="select select-bordered select-xs w-32 max-w-xs">
+                <select className="select select-bordered select-xs w-32 max-w-xs">
                   <option>Under 30</option>
                   <option>Above 30</option>
                 </select>
               </p>
-              <div class="divider my-0 mr-4"></div>
+              <div className="divider my-0 mr-4"></div>
             </div>
 
             <div>
               <p>
                 Salary:{" "}
-                <select class="select select-bordered select-xs w-32 max-w-xs">
+                <select className="select select-bordered select-xs w-32 max-w-xs">
                   <option>K 20 - K 30</option>
                   <option>K 30 - K 40</option>
                   <option>K 40 - K 50</option>
                 </select>
               </p>
-              <div class="divider my-0 mr-4"></div>
+              <div className="divider my-0 mr-4"></div>
             </div>
             <div>
               <p>
                 Gender:{" "}
-                <select class="select select-bordered select-xs w-32 max-w-xs">
+                <select className="select select-bordered select-xs w-32 max-w-xs">
                   <option>Male</option>
                   <option>Female</option>
                   <option>Other</option>
                 </select>
               </p>
-              <div class="divider my-0 mr-4"></div>
+              <div className="divider my-0 mr-4"></div>
             </div>
           </div>
           <div className="flex flex-row justify-between">
             <div className=" flex flex-col place-items-center">
               <div
-                class="radial-progress mx-4 text-success"
+                className="radial-progress mx-4 text-success"
                 style={{ "--value": 78 }}
               >
                 78%
@@ -104,7 +104,7 @@ const Dashboard = () => {
             </div>
             <div className=" flex flex-col place-items-center">
               <div
-                class="radial-progress mx-4 text-success"
+                className="radial-progress mx-4 text-success"
                 style={{ "--value": 95 }}
               >
                 95%
@@ -113,7 +113,7 @@ const Dashboard = () => {
             </div>
             <div className=" flex flex-col place-items-center">
               <div
-                class="radial-progress mx-4 text-success"
+                className="radial-progress mx-4 text-success"
                 style={{ "--value": 59 }}
               >
                 59%

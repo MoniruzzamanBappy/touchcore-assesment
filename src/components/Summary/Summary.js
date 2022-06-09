@@ -5,25 +5,25 @@ const Summary = () => {
   return (
     <div className="ml-5">
       <div className="bg-base-300 rounded mt-3 pt-2 pl-3">
-        <h1 class="text-xl font-bold">Retirement Strategy</h1>
+        <h1 className="text-xl font-bold">Retirement Strategy</h1>
         <div>
-          <p class="text-xs font-bold">Employee Contribution</p>
+          <p className="text-xs font-bold">Employee Contribution</p>
           <progress className="progress w-56" value={12} max={20}> {" "}
           </progress> <span className="text-xs">12%</span>
         </div>
         <div>
-          <p class="text-xs font-bold">Retirement Age</p>
+          <p className="text-xs font-bold">Retirement Age</p>
           <progress className="progress w-56" value={65} max={80}> {" "}
           </progress> <span className="text-xs">65%</span>
         </div>
         
-        <div class="divider my-1 mr-4"></div>
+        <div className="divider my-1 mr-4"></div>
         <div className="flex flex-row justify-between mr-5">
-          <p class="text-xs font-bold">Employer Contribution</p>
+          <p className="text-xs font-bold">Employer Contribution</p>
           <p>8.4%</p>
         </div>
         <div className="flex flex-row justify-between mr-5">
-          <p class="text-xs font-bold">Interest Rate</p>
+          <p className="text-xs font-bold">Interest Rate</p>
           <p>5%</p>
         </div>
         <div className="flex flex-row justify-center">
@@ -35,7 +35,7 @@ const Summary = () => {
       </div>
 
       <div className="flex flex-row">
-      <div class="divider divider-horizontal ml-0 pl-0"></div> 
+      <div className="divider  divider-horizontal ml-0 pl-0"></div> 
         <div>
           <p>Are you considering a</p>
           <p className="font-bold">Housing Advance?</p>
