@@ -13,7 +13,7 @@ const Profile = () => {
           </div>
         </div>
         <div className="ml-5">
-          <h1 className="text-2xl font-bold">John Doe</h1>
+          <h1 className="text-2xl font-bold">Hi John Doe,</h1>
           <p className="text-sm">Welcome back</p>
         </div>
       </div>

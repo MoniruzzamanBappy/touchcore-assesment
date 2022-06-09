@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 const Summary = () => {
   return (
     <div className="ml-5">
-      <div className="bg-base-300 rounded mt-3 pt-2 pl-3">
+      <div className="bg-base-300 rounded mt-3 mr-3  pt-3 pl-3">
         <h1 className="text-xl font-bold">Retirement Strategy</h1>
         <div>
           <p className="text-xs font-bold">Employee Contribution</p>
@@ -29,12 +29,12 @@ const Summary = () => {
         <div className="flex flex-row justify-center">
           <button className="btn btn-primary w-2/3">Update</button>
         </div>
-        <p className="text-center text-sm text-primary flex flex-row my-3 justify-center">
+        <p className="text-center text-sm text-primary flex flex-row py-3 justify-center">
           <a className="flex flex-row place-items-center text-center" href="abc">View Help Docs <MdOutlineKeyboardArrowRight/></a>
         </p>
       </div>
 
-      <div className="flex flex-row">
+      <div className="flex flex-row mt-3">
       <div className="divider  divider-horizontal ml-0 pl-0"></div> 
         <div>
           <p>Are you considering a</p>
